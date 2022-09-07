@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"
+
+        !--SEO TAGS--!
+        <meta name="keywords" content=""
+        <meta name="description" content=""
+    </head>
+    <body>
+        <form>
+            <table border="1px">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nm">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="nm" />
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <label>
+                                  <input type="radio" name="gender" value="male" id="m" />Male
+                            </label>
+
+                            <label>
+                                <input type="radio" name="gender" value="female" id="f" />Female
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>   
+                        <td>
+                            <label for="ec">Eye color</label>
+                        </td>
+                        <td>
+                            <select name="eyecolor" id="ec">
+                                <option value="black">black</option>
+                                <option value="white">white</option>
+                                <option value="blue">blue</option>
+                            </select>
+                        </td>
+                    </tr>  
+                    <tr>
+                        <td>
+                            <label for="height">Height</label>
+                        </td>
+                        <td>
+                            <label>
+                                <input type="radio" name="height" value="below 5 feet" id="height"/>Below 5 feet
+                            </label>
+                            <label>
+                                <input type="radio" name="height" value="above 5 feet"/>Above 5 feet
+                            </label>
+                            <label>
+                                <input type="radio" name="height" value="6 feet"/>6 feet
+                            </label>
+                            <label>
+                                <input type="radio" name="height" value="above 6 feet"/>Above 6 feet
+                            </label>
+                            
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td colspan="2">Tell me about yourself:</td>
+                    </tr>  
+                    
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="Bio" rows="10px" cols="60px"></textarea>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" name="submit" value="Submit    "/>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </body>
+</html>
